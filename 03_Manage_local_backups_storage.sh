@@ -27,6 +27,6 @@ if [ $log_storage_duration = "0" ];
   sudo rm $log_path/*.log
 else
   echo "Suppression des fichiers de logs de plus de $log_storage_duration jours"
-  find $log_path -name "*.tar.gz" -mtime +$log_storage_duration -exec rm -f {} \;
+  find $log_path -name "*.log" -mtime +$log_storage_duration -exec rm -f {} \;
 fi
 
