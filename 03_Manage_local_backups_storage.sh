@@ -3,7 +3,7 @@
 scripts_dir=$(dirname "$0")
 source $scripts_dir/settings_backup.ini
 
-local_storage_duration=$1
+#local_storage_duration=$1
 
 ###############################
 ### REMOVE TOO OLD ARCHIVES ###
